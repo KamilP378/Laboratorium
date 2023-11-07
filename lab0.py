@@ -31,5 +31,3 @@ koszt=cena*zużycie
 
 print(f"Zużycie wynosi: {zużycie}")
 print(f"Koszt wynosi: {koszt}")
-
-
