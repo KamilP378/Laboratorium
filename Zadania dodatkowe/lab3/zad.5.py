@@ -1,0 +1,6 @@
+zdanie = input("Wprowadź zdanie: ")
+slowa = zdanie.split()
+najdluzsze_slowo = max(slowa, key=len)
+dlugosc = len(najdluzsze_slowo)
+print("Najdłuższe słowo: ", najdluzsze_slowo)
+print("Długość najdłuższego słowa: ", dlugosc)
